@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Check this out</string>
+    <string name="navigation_sample">Navigation</string>
+    <string name="room_sample">Room</string>
+    <string name="data_binding_sample">Data Binding</string>
+    <string name="lifecycle_aware_sample">Lifecycle aware</string>
+    <string name="paging_sample">Paging</string>
+    
+    <string name="title_activity_slash_screen">SlashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    
+    <string name="main_selection_nav_graph">Navigation Graph</string>
+    <string name="main_selection_room">Room / RxJava / Live Data</string>
+    <string name="main_selection_paging">Paging / Retrofit / Coroutines</string>
+    <string name="main_selection_data_binding">Data binding</string>
+    <string name="main_selection_live_data">Lifecycle aware component</string>
+    
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_start_intro_text">Start fragment for Navigation. Continue to fill out form and pass arguments</string>
+    <string name="nav_start_intro_btn">Start Navigation</string>
+    <string name="nav_details_submit">Submit</string>
+    <string name="nav_form_name_hint">Name</string>
+    <string name="nav_form_address_hint">Address</string>
+    <string name="nav_form_telephone_hint">Phone number</string>
+    <string name="nav_form_error_return">Go back</string>
+    <string name="nav_form_complete">Start Over</string>
+    
+    <string name="room_data_add">Add</string>
+    <string name="room_data_delete">Remove</string>
+    <string name="room_data_hint_id">Id</string>
+    <string name="room_data_hint_delete_id">Remove Id</string>
+    <string name="room_data_hint_name">Name</string>
+    <string name="room_data_hint_description">Desc</string>
+    <string name="room_data_toast_empty">Empty field</string>
+    <string name="data_binding_bottom_frag">Fragment 2</string>
+    <string name="data_binding_top_frag">Fragment 1</string>
+    <string name="data_binding_random_string">Random String</string>
+    <string name="lifecycle_note">(Aware Update) button will show a toast 5 times, text will change depending if activity was destroyed. (Unaware update) button text will not change because it is unaware what state the activity is in</string>
+    <string name="lifecycle_update">Update</string>
+    <string name="lifecycle_aware_update">Aware update</string>
+    <string name="lifecycle_unaware_update">Unaware update</string>
+
+</resources>

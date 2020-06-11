@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.layered_jetpack_mvvm">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_round"
+        android:supportsRtl="true"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.layered_jetpack_mvvm.features.paging.ui.PagingActivity"
+            android:label="@string/paging_sample"
+            android:theme="@style/PagingTheme" />
+        <activity
+            android:name=".features.lifecycle.ui.LifcycleAwareActivity"
+            android:label="@string/lifecycle_aware_sample" />
+        <activity
+            android:name=".features.databinding.ui.DataBindingActivity"
+            android:label="@string/data_binding_sample" />
+        <activity
+            android:name=".features.room.ui.RoomActivity"
+            android:label="@string/room_sample" />
+        <activity
+            android:name=".features.navigation.ui.NavigationActivity"
+            android:label="@string/navigation_sample" />
+        <activity
+            android:name=".features.landingPage.ui.MainActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".features.startup.ui.SplashScreenActivity"
+            android:label="@string/title_activity_slash_screen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+    
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

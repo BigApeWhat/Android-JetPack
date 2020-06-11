@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".features.databinding.ui.BindingTopFragment">
+    
+    <data>
+        <variable
+            tools:ignore="MissingPrefix"
+            name="bindingModel" type="com.example.layered_jetpack_mvvm.features.databinding.model.UseBinding" />
+    </data>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_binding_top_frag" />
+    
+        <EditText
+            android:id="@+id/data_binding_top_text"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:imeOptions="actionDone"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{bindingModel.varPass}" />
+        
+    </FrameLayout>
+
+</layout>

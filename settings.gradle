@@ -1,0 +1,2 @@
+rootProject.name='Layered_JetPack_MVVM'
+include ':app'
